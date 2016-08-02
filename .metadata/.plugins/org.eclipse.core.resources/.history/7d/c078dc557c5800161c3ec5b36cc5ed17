@@ -7,7 +7,7 @@ public class InitiateThread implements Runnable {
 	public static void main(String[] args) {
 		
 		
-		new InitiateThread().run();
+		new InitiateThread();
 	}
 
 	@Override
