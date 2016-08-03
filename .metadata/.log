@@ -142,3 +142,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.security 1 0 2016-08-02 11:24:05.843
 !MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-03 10:00:14.333
+!MESSAGE No repository found at http://download.eclipse.org/egit/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-03 10:00:16.089
+!MESSAGE No repository found at http://download.eclipse.org/eclipse/updates/4.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-03 10:00:20.722
+!MESSAGE No repository found at http://download.eclipse.org/webtools/repository/mars.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-03 10:00:25.425
+!MESSAGE No repository found at http://download.eclipse.org/releases/mars.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-08-03 10:00:27.104
+!MESSAGE No repository found at http://download.eclipse.org/mylyn/releases/mars.
