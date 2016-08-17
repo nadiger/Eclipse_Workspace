@@ -1,0 +1,5 @@
+package com.webdev.dao;
+
+public class Database {
+
+}

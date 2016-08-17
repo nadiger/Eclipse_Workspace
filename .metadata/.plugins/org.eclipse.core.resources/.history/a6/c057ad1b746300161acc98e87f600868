@@ -1,0 +1,11 @@
+package CHAPTER_9_THREADS;
+
+public class MultipleThreadAtOnce implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

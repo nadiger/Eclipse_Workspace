@@ -1,0 +1,10 @@
+package CHAPTER_9_THREADS;
+
+public class TestThread {
+
+	public static void main(String[] args) {
+		System.out.println("Main Method called...");
+		InitiateThread it = new InitiateThread();
+		Thread t = new Thread(it);
+	}
+}

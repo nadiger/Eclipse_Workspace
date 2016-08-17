@@ -1,0 +1,68 @@
+package com.webdev.utilities;
+
+import java.io.*;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.swing.JOptionPane;
+
+// Referenced classes of package Doc:
+//            UserScreenDocIndex
+
+public class IndexDirFiles
+{
+
+	public static int aa;
+	public static int dd;
+	static int spc_count = -1;
+	PreparedStatement pstmt = null;
+	ResultSet resultSet = null;
+	String sqlStatement = "";
+	public String filename="",path="",filetype="";
+
+	public void Process(File aFile, PrintWriter outb) throws IOException
+	{
+		filename="";path="";filetype="";
+		String saa = "";
+		spc_count++;
+		String spcs = "";
+		String cc = "";
+		for(int i = 0; i < spc_count; i++)
+			spcs = (new StringBuilder(String.valueOf(spcs))).append(" ").toString();
+
+		if(aFile.isFile())
+			System.out.println((new StringBuilder(String.valueOf(spcs))).append("[FILE] ").append(aFile.getName()).toString());
+		cc = aFile.getName();
+		System.out.println(cc);
+		if(aFile.isDirectory())
+		{
+			System.out.println((new StringBuilder(String.valueOf(spcs))).append("[DIR] ").append(aFile.getAbsoluteFile()).toString());
+			saa = (new StringBuilder(String.valueOf(aFile.getAbsoluteFile().toString()))).append("\n").toString();
+			cc = (new StringBuilder(String.valueOf(cc))).append("|").append(saa).toString();
+			File listOfFiles[] = aFile.listFiles();
+			aa = listOfFiles.length;
+			if(listOfFiles != null)
+			{
+				for(int i = 0; i < listOfFiles.length; i++)
+					Process(listOfFiles[i], outb);
+
+				for(dd = 0; dd < listOfFiles.length; dd++);
+			} /*else
+			{
+				System.out.println((new StringBuilder(String.valueOf(spcs))).append(" [ACCESS DENIED]").toString());
+			}*/
+		} else
+		{
+			String ff = "";
+			ff = aFile.getAbsolutePath().toString();
+			String dd = ff.replace(cc, "");
+			dd = dd.substring(0, dd.length() - 1);
+			cc = (new StringBuilder(String.valueOf(cc))).append(",").append(dd).append("\n").toString();
+			outb.append(cc);
+		}
+		spc_count--;
+	}
+
+
+
+}

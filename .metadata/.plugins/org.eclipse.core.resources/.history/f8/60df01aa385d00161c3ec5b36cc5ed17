@@ -1,0 +1,29 @@
+package CHAPTER_9_THREADS;
+
+public class TestThread {
+
+	public static void main(String[] args) {
+		System.out.println("Main Method called...");
+		
+		ThreadImplementsRunnable it = new ThreadImplementsRunnable();
+		Thread t = new Thread(it);
+		t.run();
+		
+		System.out.println();
+		
+		ThreadExtendsThread tet = new ThreadExtendsThread();
+		tet.run();
+		
+		System.out.println();
+		
+		MultipleThreadOfExcecution mul = new MultipleThreadOfExcecution();
+		Thread mult1 = new Thread(mul);
+		mult1.run();
+		Thread mult2 = new Thread(mul);
+		mult2.run();
+		Thread mult3 = new Thread(mul);
+		mult3.run();
+		Thread mult4 = new Thread(mul);
+		mult4.run();
+	}
+}

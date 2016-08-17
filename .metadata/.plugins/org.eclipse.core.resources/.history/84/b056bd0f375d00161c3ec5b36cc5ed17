@@ -1,0 +1,9 @@
+package CHAPTER_9_THREADS;
+
+public class TestThread {
+
+	public static void main(String[] args) {
+
+		new InitiateThread().run();
+	}
+}

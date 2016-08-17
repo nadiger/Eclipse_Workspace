@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="CHAPTER_9_THREADS.InitiateThread"/>
+<fullyQualifiedTypeName name="CHAPTER_9_THREADS.ThreadExtendsThread"/>
+<fullyQualifiedTypeName name="CHAPTER_9_THREADS.MultipleThreadOfExcecution"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>
