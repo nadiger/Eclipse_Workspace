@@ -1,9 +1,0 @@
-package CHAPTER_9_THREADS;
-
-public class InitiateThread implements Runnable {
-	public void run() {
-		System.out.println("Thread is Running");
-		System.out.println("Main Thing to remember is This thread is running by implimenting Runnable");
-		
-	}
-}

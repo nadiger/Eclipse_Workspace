@@ -1,5 +1,0 @@
-package CHAPTER_9_THREADS;
-
-public class ExtendsThread extends Thread {
-
-}

@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="CHAPTER_9_THREADS.InitiateThread"/>
 <fullyQualifiedTypeName name="CHAPTER_9_THREADS.ThreadExtendsThread"/>
 <fullyQualifiedTypeName name="CHAPTER_9_THREADS.MultipleThreadOfExcecution"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="CHAPTER_9_THREADS.RunnableThreadName"/>
+<fullyQualifiedTypeName name="CHAPTER_9_THREADS.MultipleThreadAtOnce"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="CHAPTER_9_THREADS.ZTestThread"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.webdev.testing.TestIndexing"/>
+<fullyQualifiedTypeName name="com.webdev.utilities.IndexDirFiles"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.webdev.dao.DBConnection"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="com.travelnow.db.Location"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
